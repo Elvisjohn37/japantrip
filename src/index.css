@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.carousel .control-dots {
+    transform: translateY(60px);
+}
+
+.carousel.carousel-slider {
+    overflow: unset;
+}

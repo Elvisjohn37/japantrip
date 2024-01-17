@@ -1,0 +1,62 @@
+@import '/src/assets/scss/_values';
+
+@mixin zoomIn($duration: $duration) {
+    animation-name: zoomIn;
+    animation-duration: $duration;
+    animation-iteration-count: infinite;
+
+    @keyframes zoomIn {
+        0% {
+            transform: scale(0.9);
+        }
+        50% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0.9);
+        }
+    }
+}
+
+@mixin bounceOnce($duration: $duration) {
+    animation-name: bounceOnce;
+    animation-duration: $duration;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+    @keyframes bounceOnce {
+        0% {
+            transform: scale(0.8);
+        }
+        50% {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+}
+
+@mixin fadeIn($dur: $duration) {
+    animation-name: fadeIn;
+    animation-duration: $dur;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        20% {
+            opacity: 1;
+        }
+        80% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+}

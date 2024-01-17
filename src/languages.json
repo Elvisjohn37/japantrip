@@ -1,0 +1,189 @@
+{
+    "activeLang": "myen",
+    "myen": {
+        "tryYourLuck": "TRY YOUR LUCK!",
+        "howToPlay": {
+            "title": "HOW TO PLAY",
+            "text1": "1. Click to shake the Golden Tree",
+            "text2": "2. Win Gold Bar worth up to RM88,888 You have 3 FREE chances!"
+        },
+        "howToClaim": {
+            "title": "HOW TO CLAIM",
+            "text1": "1. Create an 2UP account",
+            "text2": "2. Verify your 2UP account",
+            "text3": "3. Our CS will contact you in 72 hours to arrange prize delivery!"
+        },
+        "prizePool": {
+            "title": "PRIZE POOL",
+            "text1": "1 x Jackpot Prize: 300g 999.9 Gold Bar",
+            "text2": "2 x 1st Prize: 50g 999.9 Gold Bar",
+            "text3": "5 x 2nd Prize: 10g 999.9 Gold Bar",
+            "text4": "10 x 3rd Prize: 5g 999.9 Gold Bar",
+            "text5": "100 x Consolation Prize: RM720 Fa Cai Angpao"
+        },
+        "tryAgain": {
+            "title": "TRY AGAIN",
+            "text1": "Sorry, please try again.",
+            "text2": "You have # more chance(s)."
+        },
+        "wow": {
+            "title": "WOW! YOU ARE SO HUAT!",
+            "text1": "Congratulations!",
+            "text2": "You have won RM720 Fa Cai Angpao!"
+        },
+        "depositeAndWin": {
+            "title": "DEPOSIT AND WIN 8D7N TRIP TO JAPAN",
+            "text1": "10/02/2024 - 24/02/2024"
+        },
+        "howToJoin": {
+            "title": "HOW TO JOIN",
+            "text1": "1. Login/Sign Up 2UP account.",
+            "text2": "2. Earn 1 Lucky Draw entry for every RM50 deposit. Eg, RM250 = 5 entries earned",
+            "text3": "2. The more you deposit, the higher chance to WIN!",
+            "text4": "3. Watch the LIVE LUCKY DRAW on 26 February 2024!"
+        },
+        "luckyDraw": {
+            "title": "LUCKY DRAW",
+            "text1": "Time: 8.00pm (GMT+8)",
+            "text2": "Date: 26th February 2024",
+            "text3": "Where: Watch the LIVE LUCKY DRAW here"
+        },
+        "followUsOn": "Follow Us On",
+        "paymentMethod": "Payment Method",
+        "ftdBonus": "150% FTD Bonus",
+        "loss": {
+            "title": "TRY AGAIN",
+            "subTitle": "Sorry, please try again.",
+            "message": "You have # more chance(s).",
+            "buttonText": "TRY AGAIN"
+        },
+        "win": {
+            "title": "WOW! YOU ARE SO HUAT!",
+            "subTitle": "Congratulations!",
+            "message": "You have won RM720 Fa Cai Angpao!",
+            "buttonText": "CLAIM HERE",
+            "moneySite": "https://2upfans.com/"
+        },
+        "rollingPopup": [
+            "j*y*u*k*2 just won RM720 Angpao",
+            "h*p*y*n*3* just won 5g 999.9 Gold Bar",
+            "s*i*j*e*t*n just claimed 150% FTD Bonus",
+            "f*z*i*n*a* just won RM720 Angpao",
+            "s*h*i*i*5*n just won RM720 Angpao",
+            "k*r*i*g*s*n*8 just claimed 150% FTD Bonus",
+            "j*s*i*a*p*n* just won RM720 Angpao",
+            "j*b*o*e*h*g just claimed 150% FTD Bonus",
+            "n*g*a*i*3*8 just won RM720 Angpao",
+            "l*k*o*w*n just won 5g 999.9 Gold Bar",
+            "b*s*i*l*h*3 just won RM720 Angpao",
+            "h*i*i*9 just won RM720 Angpao",
+            "u*i*o*n*a*e* just claimed 150% FTD Bonus",
+            "h*a*a*8*8* just won RM720 Angpao",
+            "g*r*l*f*n*7* just won RM720 Angpao",
+            "e*t*e*l*m*5 just won RM720 Angpao",
+            "h*e*n*e*0 just claimed 150% FTD Bonus",
+            "r*s*i*i*a*a* just won RM720 Angpao",
+            "j*e*c*a*6*g just won RM720 Angpao",
+            "t*m*h*u*n*1 just won 5g 999.9 Gold Bar",
+            "l*t*e*i*2*d just won RM720 Angpao",
+            "a*k*o*9*9 just won RM720 Angpao",
+            "d*l*n*g*k*s just claimed 150% FTD Bonus",
+            "m*h*m*d*a*z just claimed 150% FTD Bonus",
+            "b*n*a*i*t*o*n just won RM720 Angpao",
+            "h*l*o*k*2*2 just won RM720 Angpao"
+        ]
+    },
+    "mycn": {
+        "tryYourLuck": "试试手气",
+        "howToPlay": {
+            "title": "玩法",
+            "text1": "1. 点击摇一摇发财树",
+            "text2": "2. 赢取价值高达 RM88,888 的 999.9 纯金条 您有3次免费机会！"
+        },
+        "howToClaim": {
+            "title": "领奖方式",
+            "text1": "1. 注册 2UP 账号",
+            "text2": "2. 验证您的 2UP 账号",
+            "text3": "3. 若您中奖，我们的客服团队将在72小时内联系您安排奖品邮寄事项"
+        },
+        "prizePool": {
+            "title": "奖金池",
+            "text1": "1 x 特别奖: 300g 999.9  纯金条",
+            "text2": "2 x 大奖: 50g 999.9  纯金条",
+            "text3": "5 x 二奖: 10g 999.9  纯金条",
+            "text4": "10 x 三奖: 5g 999.9  纯金条",
+            "text5": "100 x 安慰奖: RM720 发财红包"
+        },
+        "tryAgain": {
+            "title": "再试一次",
+            "text1": "对不起，请再试一次。",
+            "text2": "您还有 # 次机会。."
+        },
+        "wow": {
+            "title": "恭喜发财！",
+            "text1": "恭喜",
+            "text2": "您赢得了 RM720 发财红包！"
+        },
+        "depositeAndWin": {
+            "title": "充值就有机会赢取8天7夜双人日本之旅",
+            "text1": "10/02/2024 至 24/02/2024"
+        },
+        "howToJoin": {
+            "title": "如何参与",
+            "text1": "1. 登录或注册 2UP 账号",
+            "text2": "2. 在活动期间，每充值 RM50 将获得个 1 个抽奖机会。例子：充值 RM250 = 5 次抽奖机会",
+            "text3": "2. 充值越多，得奖机率越高！",
+            "text4": "3. 2024年2月26日，邀请您一起观看抽奖直播！"
+        },
+        "luckyDraw": {
+            "title": "抽奖直播",
+            "text1": "时间: 8.00pm (GMT+8)",
+            "text2": "日期: 2024年2月26日",
+            "text3": "抽奖直播: 点此观看"
+        },
+        "followUsOn": "关注我们",
+        "paymentMethod": "付款方式",
+        "ftdBonus": "150% 首充奖金",
+        "loss": {
+            "title": "再试一次",
+            "subTitle": "对不起，请再试一次。",
+            "message": "您还有 # 次机会。",
+            "buttonText": "再试一次"
+        },
+        "win": {
+            "title": "恭喜发财！",
+            "subTitle": "恭喜",
+            "message": "您赢得了 RM720 发财红包！",
+            "buttonText": "点击领取",
+            "moneySite": "https://2upfans.com/"
+        },
+        "rollingPopup": [
+            "j*y*u*k*2 刚赢了 RM720 发财红包",
+            "h*p*y*n*3* 刚赢了 5g 999.9 纯金条",
+            "s*i*j*e*t*n 刚领取了 150% 首充奖金",
+            "f*z*i*n*a* 刚赢了 RM720 发财红包",
+            "s*h*i*i*5*n 刚赢了 RM720 发财红包",
+            "k*r*i*g*s*n*8 刚领取了 150% 首充奖金",
+            "j*s*i*a*p*n* 刚赢了 RM720 发财红包",
+            "j*b*o*e*h*g 刚领取了 150% 首充奖金",
+            "n*g*a*i*3*8 刚赢了 RM720 发财红包",
+            "l*k*o*w*n 刚赢了 5g 999.9 纯金条",
+            "b*s*i*l*h*3 刚赢了 RM720 发财红包",
+            "h*i*i*9 刚赢了 RM720 发财红包",
+            "u*i*o*n*a*e* 刚领取了 150% 首充奖金",
+            "h*a*a*8*8* 刚赢了 RM720 发财红包",
+            "g*r*l*f*n*7* 刚赢了 RM720 发财红包",
+            "e*t*e*l*m*5 刚赢了 RM720 发财红包",
+            "h*e*n*e*0 刚领取了 150% 首充奖金",
+            "r*s*i*i*a*a* 刚赢了 RM720 发财红包",
+            "j*e*c*a*6*g 刚赢了 RM720 发财红包",
+            "t*m*h*u*n*1 刚赢了 5g 999.9 纯金条",
+            "l*t*e*i*2*d 刚赢了 RM720 发财红包",
+            "a*k*o*9*9 刚赢了 RM720 发财红包",
+            "d*l*n*g*k*s 刚领取了 150% 首充奖金",
+            "m*h*m*d*a*z 刚领取了 150% 首充奖金",
+            "b*n*a*i*t*o*n 刚赢了 RM720 发财红包",
+            "h*l*o*k*2*2 刚赢了 RM720 发财红包"
+        ]
+    }
+}

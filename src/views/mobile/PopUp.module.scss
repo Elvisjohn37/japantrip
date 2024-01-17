@@ -1,0 +1,171 @@
+@import '/src/assets/scss/_keyframes';
+
+.popUp {
+    z-index: 50;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .img {
+    }
+
+    .envelopeContainer {
+        position: relative;
+        @include bounceOnce;
+
+        img {
+            width: 100%;
+        }
+
+        .openButton {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    .lossContent {
+        position: relative;
+    }
+
+    .prizesResultContainer {
+        position: relative;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .prizesResult,
+        .notWin {
+            width: 80%;
+        }
+
+        &.lossContent {
+            position: relative;
+            justify-content: unset;
+
+            .lossContainer {
+                width: 90%;
+                background: #c1272e;
+                height: 30vh;
+                color: #ffffff;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                overflow: hidden;
+                position: relative;
+                border: 2px solid #efbd4b;
+                border-top: unset;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 70%;
+                    height: 200%;
+                    background: #b12229;
+                    right: -46px;
+                    transform: rotate(45deg);
+                    top: -30px;
+                }
+            }
+            .content {
+                .message {
+                    margin-top: 0;
+                    color: #ffffffad;
+                }
+            }
+        }
+
+        .title {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: 700;
+            color: #ffffff;
+            top: -10vw;
+            width: 100%;
+            text-align: center;
+            z-index: 2;
+        }
+
+        .content {
+            position: absolute;
+            text-align: center;
+            padding: 4vw 16vw;
+
+            .subTitle {
+                font-weight: 700;
+                padding: 4vw 0;
+                color: #ffffff;
+
+                &.win {
+                    color: #00c200;
+                }
+            }
+
+            .message {
+                margin-top: 10vw;
+                strong {
+                    color: #c0272e;
+                }
+            }
+        }
+
+        .titleImage {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: -19vw;
+            z-index: 1;
+        }
+
+        div {
+            // @include zoomIn(2s);
+
+            .okButton {
+                position: absolute;
+                width: 70%;
+                bottom: 6vw;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    .popupBox {
+        .titleImage {
+            position: absolute;
+            width: 70vw;
+            left: 50%;
+            top: -6vw;
+            transform: translateX(-50%);
+        }
+
+        img {
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            padding: 0 8vw;
+            font-size: 14px;
+
+            div:not(:first-of-type) {
+                margin-top: 10px;
+            }
+        }
+
+        .title {
+            position: absolute;
+            top: 0;
+            color: #ffffff;
+            font-weight: 700;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

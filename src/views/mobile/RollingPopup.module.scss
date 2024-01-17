@@ -1,0 +1,19 @@
+@import '/src/assets/scss/_keyframes';
+
+.rollingPopup {
+    padding: 10px 0;
+    display: flex;
+    justify-content: right;
+
+    span {
+        font-size: 12px;
+        padding: 5px 15vw;
+        background-color: #f7dd89;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .activeName {
+        @include fadeIn(5s);
+    }
+}
