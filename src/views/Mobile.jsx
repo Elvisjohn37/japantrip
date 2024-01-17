@@ -27,16 +27,16 @@ import classnames from 'classnames'
 import languages from '/src/languages.json'
 import { Menu } from 'react-float-menu'
 import 'react-float-menu/dist/react-float-menu.css'
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 import MembersWinning from './mobile/MembersWinning'
 import RollingPopup from './mobile/RollingPopup'
 
 const Mobile = () => {
     const activeLang = languages.activeLang
-    const copyline = `/src/assets/images/${activeLang}/copyline.png`
-    const luckbutton = `/src/assets/images/${activeLang}/luckbutton.png`
-    const japantriplogo = `/src/assets/images/${activeLang}/japantriplogo.png`
-    const joinnow = `/src/assets/images/${activeLang}/joinnow.png`
+    const copyline = `/src/assets/images/${activeLang}copyline.png`
+    const luckbutton = `/src/assets/images/${activeLang}luckbutton.png`
+    const japantriplogo = `/src/assets/images/${activeLang}japantriplogo.png`
+    const joinnow = `/src/assets/images/${activeLang}joinnow.png`
     const [showHowToPlay, setShowHowToPlay] = useState(false)
     const [startShake, setStartShake] = useState(false)
     const [startInitialize, setStartInitialize] = useState(false)
@@ -237,7 +237,14 @@ const Mobile = () => {
             <div id="japanTripSection" className={styles.japanTripContainer}>
                 <img className={styles.japanTripLogo} src={japantriplogo} />
                 <div className={styles.goldButtonContainer}>
-                    <div className={styles.depositContainer}>
+                    <div className={styles.depositContainer}
+                        onClick={() => {
+                        setShowHowToPlay(true)
+                        setShowShadow(true)
+                        setActiveContent('depositeAndWin')
+                        scrollUp()
+                    }}
+                    >
                         <img
                             className={styles.depositButton}
                             src={depositbutton}

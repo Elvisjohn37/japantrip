@@ -3,10 +3,10 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loa
 import { Carousel } from 'react-responsive-carousel'
 
 const MembersWinning = ({ activeLang = '' }) => {
-    const testimonialbg = `/src/assets/images/${activeLang}/testimonialbg.png`
-    const testimonial1 = `/src/assets/images/${activeLang}/testimonial1.png`
-    const testimonial2 = `/src/assets/images/${activeLang}/testimonial2.png`
-    const testimonial3 = `/src/assets/images/${activeLang}/testimonial3.png`
+    const testimonialbg = `/src/assets/images/${activeLang}testimonialbg.png`
+    const testimonial1 = `/src/assets/images/${activeLang}testimonial1.png`
+    const testimonial2 = `/src/assets/images/${activeLang}testimonial2.png`
+    const testimonial3 = `/src/assets/images/${activeLang}testimonial3.png`
 
     return (
         <div className={styles.membersWinning}>

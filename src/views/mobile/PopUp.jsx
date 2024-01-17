@@ -33,8 +33,8 @@ const PopUp = ({
     restartInitialize = () => null,
     activeLang = '',
 }) => {
-    const openbutton = `/src/assets/images/${activeLang}/openbutton.png`
-    const okbutton = `/src/assets/images/${activeLang}/okbutton.png`
+    const openbutton = `/src/assets/images/${activeLang}openbutton.png`
+    const okbutton = `/src/assets/images/${activeLang}okbutton.png`
     const queryString = window.location.search
 
     const [activeContent, setActiveContent] = useState(content)
@@ -46,6 +46,7 @@ const PopUp = ({
     let prizePoolData = languages[activeLang].prizePool
     let howToJoinData = languages[activeLang].howToJoin
     let luckyDrawData = languages[activeLang].luckyDraw
+    let depositeAndWinData = languages[activeLang].depositeAndWin
 
     const initialContent = content
 
@@ -81,6 +82,8 @@ const PopUp = ({
                         <PopupBox contentData={prizePoolData} />
                     ) : activeContent === 'howToJoin' ? (
                         <PopupBox contentData={howToJoinData} />
+                    ) : activeContent === 'depositeAndWin' ? (
+                        <PopupBox contentData={depositeAndWinData} />
                     ) : activeContent === 'luckyDraw' ? (
                         <PopupBox contentData={luckyDrawData} />
                     ) : activeContent === 'envelope' ? (

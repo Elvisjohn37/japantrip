@@ -3,7 +3,6 @@ import Desktop from './views/Desktop'
 import Mobile from './views/Mobile'
 
 const App = () => {
-    const activeLang = 'mycn'
 
     return (
         <div className={styles.app}>

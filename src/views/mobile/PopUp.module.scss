@@ -134,9 +134,14 @@
     }
 
     .popupBox {
+
+        .titleImage {
+
+        }
+
         .titleImage {
             position: absolute;
-            width: 70vw;
+            width: 90vw;
             left: 50%;
             top: -6vw;
             transform: translateX(-50%);
@@ -161,7 +166,7 @@
 
         .title {
             position: absolute;
-            top: 0;
+            top: 3vw;
             color: #ffffff;
             font-weight: 700;
             width: 100%;
